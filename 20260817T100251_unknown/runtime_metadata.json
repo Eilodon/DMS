@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-08-17 10:03:21",
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "torch": "2.11.0+cu128",
+  "transformers": "4.57.6",
+  "gpu": {
+    "name": "Tesla T4",
+    "vram_gb": 15.637086208,
+    "cc": "7.5"
+  },
+  "use_4bit": true,
+  "precision_mode": "auto",
+  "seed": 171,
+  "code_version": "v4.3-final",
+  "strict_kv_twostep": true,
+  "bitsandbytes": "0.50.1"
+}

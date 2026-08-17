@@ -1,0 +1,56 @@
+{
+  "key": "qwen",
+  "role": "primary",
+  "model_meta": {
+    "model_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "dtype": "torch.float16",
+    "use_4bit": true,
+    "trust_remote_code": false
+  },
+  "runtime": {
+    "timestamp": "2026-08-17 10:11:36",
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6",
+    "gpu": {
+      "name": "Tesla T4",
+      "vram_gb": 15.637086208,
+      "cc": "7.5"
+    },
+    "use_4bit": true,
+    "precision_mode": "auto",
+    "seed": 171,
+    "code_version": "v4.3-final",
+    "strict_kv_twostep": true,
+    "bitsandbytes": "0.50.1"
+  },
+  "stage0": {
+    "model_meta": {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "dtype": "torch.float16",
+      "use_4bit": true,
+      "trust_remote_code": false
+    },
+    "n_layers": 28,
+    "d_model": 3584,
+    "strict_kv_twostep_required": true,
+    "chat_score_finite": true,
+    "span_lengths": {
+      "2": 4,
+      "4": 4
+    },
+    "span_ok": true,
+    "temporal_prefix_tokens": 80,
+    "temporal_query_tokens": 81,
+    "temporal_concat_matches_full": true,
+    "strict_kv_twostep_ok": true,
+    "hook_delta": 0.03125,
+    "hook_ok": true,
+    "query_hidden_delta_l2": 1.2200912237167358,
+    "peak_vram_gb": 7.072,
+    "ALL_PASS": true
+  }
+}
